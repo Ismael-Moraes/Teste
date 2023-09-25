@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
+*{top:0;left:0;}
+
+body{
+    text-align: center;
+    align-items: center;
+    font-size: 15pt;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 0px 1px 1px cyan;
+    user-select: none;
+}
+html{
+  scroll-behavior: smooth
+}
+#topo{
+  color: cyan;
+  text-shadow: 0px 2px 2px #e5fbff;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.tit{
+  z-index: 10;
+  width: 100%;
+  margin: -2%;
+  margin-top: -4%;
+  padding: 2%;
+  background: #1f1f1f;
+  position: fixed;
+  box-shadow: 0 2px 10px #000;
+}
+#titulo{
+  color: darkgray;
+  border-radius: 35px 100px;
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 4px 4px cyan;
+  box-shadow: 2px 3px 6px darkcyan;
+}
+    
+button{
+  border: none;
+  color: #000;
+  padding: 2%;
+  margin: 3%;
+  border-radius: 6px;
+  box-shadow: 2px 3px #000, 1px 4px #fff;
+}
+button:active{
+  transform: translateX(1px);
+  transform: translateY(2px);
+  box-shadow: 0 0 5px #000;
+}
+#dark{
+  background-color: #ff0000;
+  color: #fff;
+}
+#blue{
+  background-color: #ff0000;
+  color: #fff;
+}
+#normal{
+  background-color: #ff0000;
+  color: #fff;
+}
+.naoclick{
+  background-color: #ffff00;
+}
+.insta{
+  background-color: #ed30cf;
+  color: #fff;
+}
+.anime{
+  background-color: #ff0000;
+  color: #fff;
+}
+#manga{
+  background-color: #00e000;
+  color: #fff;
+}
+#yabu{
+  background-color: #00e000;
+  color: #fff;
+}
+#gartic1{
+  background-color: #9400d3;
+  color: #fff;
+}
+#gartic{
+  background-color: #9400d3;
+  color: #fff;
+}
+#stop{
+  background-color: #9400d3;
+  color: #fff;
+}
+h2{
+  background-color: #fefefe;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2;
+  box-shadow: #fff;
+  text-shadow: #fff;
+}
+#aqui{
+  background-color: #ffffd0;
+  color: #000;
+}
+#music{
+  background-color: #808080;
+  color: #fff;
+}
+#copyright{
+  background-color: #808080;
+  color: #fff;
+}
+.amogus{
+  color: #ff0000;
+  text-shadow: 0px 2px 2px coral;
+}
+.menu{
+  width: 100%;
+  padding: 1%;
+  background-color: cyan;
+  margin: -1%;
+  margin-top: -1%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 5px darkcyan;
+  text-shadow: 1px 1px 1px mediumpurple;
+}
+.item{
+  margin: 2%;
+}
+.pao{
+  color: skyblue;
+  text-shadow: 0px 1px 1px deeppink;
+}
